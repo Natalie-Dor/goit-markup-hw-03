@@ -53,6 +53,10 @@ button {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ========common styles======= */
 
 /* Body */
@@ -137,6 +141,10 @@ body {
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .first-section-button {
   background: #4d5ae5;
@@ -158,6 +166,10 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+}
+.second-section-container {
+  display: flex;
+  column-gap: 24px;
 }
 
 /*========= third section====== */
@@ -186,6 +198,10 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
+.third-section-container {
+  display: flex;
+  column-gap: 24px;
+}
 /* =======fourth section: Portfolio =======*/
 .section-portfolio-title {
   color: #2e2f42;
@@ -203,7 +219,14 @@ body {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
-
+.portfolio-list-item {
+  border: 1px solid #e7e9fc;
+}
+.fourth-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 /*======= footer======= */
 .footer {
   background: #2e2f42;
